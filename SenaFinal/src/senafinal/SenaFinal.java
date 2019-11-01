@@ -1,21 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package senafinal;
 
-/**
- *
- * @author sala
- */
+import javax.swing.JOptionPane;
+
+
 public class SenaFinal {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
-        // TODO code application logic here
+      JOptionPane.showMessageDialog(null,"Bienvenido");
+        String dir=JOptionPane.showInputDialog(null, "Inserte su dirección");
+      
+        JOptionPane.showMessageDialog(null,"Bienvenido");
+        int tel=Integer.parseInt(JOptionPane.showInputDialog(null, "Inserte su teléfono"));
+      
     }
     
 }
