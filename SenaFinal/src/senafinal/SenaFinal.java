@@ -13,6 +13,9 @@ public class SenaFinal {
       
         JOptionPane.showMessageDialog(null,"Bienvenido");
         int tel=Integer.parseInt(JOptionPane.showInputDialog(null, "Inserte su teléfono"));
+        
+         JOptionPane.showMessageDialog(null,"Bienvenido");
+        int edad=Integer.parseInt(JOptionPane.showInputDialog(null, "Inserte su edad"));
       
     }
     
